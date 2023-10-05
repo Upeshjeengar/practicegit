@@ -40,3 +40,13 @@ To https://github.com/Upeshjeengar/practicegit.git
 11."git add ." will add all new files for tracking 
 12. You can direcly create a file and commit it to fetch that in vs code you can use "git pull orgin main"(git pull <remote> <branch>)
 13. gitignore line number 5 ya uske just baad adding location will not commit this specific folder "https://youtu.be/8KtY8ihZ8ME?list=PLTDARY42LDV7jzL_f68SY-eOQ9tY2lYvR&t=2000"
+
+14.create new branch "git branch developerA" and activate this branch by "git checkout developerA" developerA will now make changes and can commit after that this branch can be deleted then 
+ "git checkout main" then "git merge developerA" will merge main and developerA now delete "git branch -d developerA"
+ 
+ 15. collision handling:error: failed to push some refs to 'https://github.com/krishnaik06/practisegit.git'
+hint: Updates were rejected because the remote contains work that you do hint: not have locally. This is usually caused by another repository pushing hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull .') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+16.If two developers committed different segment to same code then the later developer will be asked for which code to go with
